@@ -3,11 +3,11 @@
 #include <ESP8266HTTPClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "PBR";
-const char* password = "veracity31";
-const char* apiKey = "31757b9825c23fc55a1043ff48b17735";
-const float lat = 47.185619;
-const float lon = -95.940628;
+const char* ssid = "YOUR SSID";
+const char* password = "YOUR WIFI PASSWORD";
+const char* apiKey = "YOUR API KEY";
+const float lat = 00.0000;
+const float lon = 00.0000;
 
 const int LED_PINS[] = {D0, D1, D2, D3, D4, D5};
 const int NUM_LEDS = sizeof(LED_PINS) / sizeof(LED_PINS[0]);
